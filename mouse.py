@@ -71,7 +71,7 @@ class Window(QWidget):
         self.init_pixel()
 
         # Hide the mouse cursor
-        #self.setCursor(Qt.BlankCursor)
+        self.setCursor(Qt.BlankCursor)
 
         # Set up the window
         self.setWindowTitle("Hotter/Colder")
